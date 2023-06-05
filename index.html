@@ -6,52 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY UI Assignment</title>
     <link rel="stylesheet" href=".\style\style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div></div>
   </head>
   <body>
-      <header>
-
-        <nav class="navbar">
-          <img src="images\myLogo.jpg" class="logo"  />
-          <ul class="navbar_links">
-            <li class="navbar_items">
-              <a href="# home" class="navbar_link" >Home</a>
-            </li>
-            <li class="navbar_items">
-              <a href="# aboutUs" class="navbar_link" >About Us</a>
-            </li>
-            <li class="navbar_items">
-              <a href="#" class="navbar_link">Services</a>
-            </li>
-            <li class="navbar_items">
-              <a href="#" class="navbar_link">Client</a>
-            </li>
-            <li class="navbar_items">
-              <a href="#" class="navbar_link">Careers</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section id ="home" class="home">
-        <div class="home_banner">
-          
-        <h2 class="home_lable">Learn, Evolve, Progress !</h2>
-        <p class="home_para">
-          You stop growing , when you stop learning.
-          Learn something new everyday !!
+    <header>
+      <nav class="navbar">
+        <img src="images\myLogo.jpg" class="logo" />
+        <ul class="navbar_links">
+          <li class="navbar_items">
+            <a href="#home" class="navbar_link">Home</a>
+          </li>
+          <li class="navbar_items">
+            <a href="#aboutUs" class="navbar_link">About Us</a>
+          </li>
+          <li class="navbar_items">
+            <a href="#services" class="navbar_link">Services</a>
+          </li>
+          <li class="navbar_items">
+            <a href="#clients" class="navbar_link">Client</a>
+          </li>
+          <li class="navbar_items">
+            <a href="#home" class="navbar_link">Careers</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="home_banner">
+        <h2 class="headerDtls">Learn, Evolve, Progress !</h2>
+        <p class="para">
+          You stop growing , when you stop learning. Learn something new
+          everyday !!
         </p>
-        <button type="button" class="home_button">Subscribe</button>        
+        <button type="button" class="home_button">Subscribe</button>
+      </div>
+    </section>
+
+    <section id="aboutUs">
+      <div class="aboutUs_banner">
+        <img src="images\about.jpeg" />
+        <div>
+          <h2 class="aboutUs_lable headerDtls">About Us!</h2>
+          <p class="aboutUs_para para">
+            Latest concepts and principles in the field of Web Development,
+            delivered by expert trainers. !!
+          </p>
         </div>
-      </section>
-      
-      <section id ="aboutUs" class="aboutUs">
-        <div class="aboutUs_banner">               
-          <img src="images\myLogo.jpg" class="logo"  />
-          <h2 class="home_lable">Learn, Evolve, Progress !</h2>
-        <p class="aboutUs_para">
-          Latest concepts and principles in the field of Web Development, delivered by expert trainers. !!
-        </p>        
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services_banner">
+        <h2 class="headerDtls">Services</h2>
+        <div class="services_dtls">
+          <div>
+            <i class="fas fa-code fa-2x"></i>
+            <h2 class="para">Custom Development</h2>
+            <p class="para_dtls para">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dignissimos corrupti aliquam nemo modi nostrum, excepturi vitae
+              rerum repellendus sint nulla!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-cloud fa-2x"></i>
+            <h2 class="para">Cloud Services Management</h2>
+            <p class="para_dtls para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              perspiciatis. Tempore fuga similique et aliquam, maiores labore
+              vitae laborum natus!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-server fa-2x"></i>
+            <h2 class="para">Database Management</h2>
+            <p class="para_dtls para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              delectus sit autem! Sint quod ex dolorem, veniam vel consequatur
+              et!
+            </p>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <div class="line"></div>
+    <section id="clients">
+      <div class="clients">
+      <h2 class="headerDtls">Clients</h2>   
+        <div class="client_dtls">
+          <div><img src="./images/logo2.png" alt="Client2" /></div>
+          <div><img src="./images/logo3.png" alt="Client3 " /></div>
+          <div><img src="./images/logo4.png" alt="Client4" /></div>
+          <div><img src="./images/logo5.png" alt="Client5" /></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <footer class="footer " >
+      <div class="footer_dtls">All right reserved</div>
+    </footer>
   </body>
 </html>

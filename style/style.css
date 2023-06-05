@@ -14,14 +14,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid black; */
 }
 
 .logo {
-  width: 75px;
+  width: 5%;
   padding: 15px;
   border-radius: 35px;
-  /* border: 2px solid black; */
 }
 .navbar_links {
   display: flex;
@@ -32,46 +30,33 @@ header{
 .navbar_link {
   font-size: 20px;
   padding: 20px;
-  /* list-style: none; */
   text-decoration: none;
   color: white;
 }
 .navbar_link:hover {
-  /* background: rgb(243, 243, 150); */
   color: rgb(166, 91, 91);
 }
-.home {
-  padding: 0px;
-  height: 100vh;
-  /* box-sizing: border-box; */
 
+.home_banner {
+  height: 100vh;
   background-color: rgb(243, 243, 150);
+  
+  background: linear-gradient(to right, #2c3e50, #2980b9);
   
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
-  flex-wrap:wrap;
-}
-.home_banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-.home_lable {
+
+/* .home_lable {
   font-size: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.home_para {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 50px;
-}
+
 
 .home_button {
   background: black;
@@ -85,3 +70,96 @@ header{
 
 }
 
+.aboutUs_banner{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutUs_lable {
+
+  color: rgb(243, 243, 150);
+}
+.aboutUs_para{
+  color: white;
+}
+
+.para{
+  font-size: 40px;
+  text-align: center;
+}
+
+.headerDtls {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para_dtls{
+  font-size: 30px;
+  text-align: center;
+}
+
+.services_banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services_dtls{
+  flex-direction: row;
+  display: flex;
+
+}
+
+.services_dtls div {
+  text-align: center;
+}
+.services_dtls i{
+  padding: 5%;
+  border-radius: 50%;  
+  background-color: #2980b9;
+  color: white;
+}
+
+.clients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.client_dtls {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+
+.client_dtls img {
+  width: 40%;
+}
+
+.line{
+  background-color: gray;
+  height: 1px;
+  margin-top: 40px;
+
+}
+
+.footer{
+background-color: black;
+align-items: center;
+text-align: center;
+padding: 40px;
+font-size: 20px;
+}
+
+.footer_dtls{
+  color: white
+}
