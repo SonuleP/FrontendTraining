@@ -49,15 +49,6 @@ header{
   align-items: center;
 }
 
-/* .home_lable {
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-
-
 .home_button {
   background: black;
   color: rgb(243, 243, 150);
@@ -89,19 +80,26 @@ header{
 .para{
   font-size: 40px;
   text-align: center;
-}
-
-.headerDtls {
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Centaur;
 }
 
 .para_dtls{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
+  font-family: Centaur;
+
 }
+
+.headerDtls {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
 
 .services_banner{
   display: flex;
@@ -149,7 +147,7 @@ header{
   background-color: gray;
   height: 1px;
   margin-top: 40px;
-
+  margin-bottom: 40px;
 }
 
 .footer{
@@ -158,8 +156,10 @@ align-items: center;
 text-align: center;
 padding: 40px;
 font-size: 20px;
+font-style: italic;
 }
 
 .footer_dtls{
   color: white
+  
 }
